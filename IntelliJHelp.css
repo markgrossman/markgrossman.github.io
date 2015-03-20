@@ -1,25 +1,23 @@
-html, body {
-	margin: 0;
-	padding: 0;
-	height: 100%;
-	text-align: center;
-	background-color: #195BA8;
+body {
+	background-color: #2583B3;
 }
-#floater {
-	position: relative;
-	float: left;
-	height: 30%;
-	margin-bottom: -30px;
+
+.emailForm {
+	width: 100%;
+    padding: 15px;
+    margin: 0 auto;
 }
+
 .text {
-	position: relative;
-	clear: both;
-	height: 100px;
-	position: relative;
+	color: #F5792C;
 	font-family: Open Sans, Arial, sans-serif;
-	font-size: 100px;
-	color: #F58B31;
+	font-size: 75px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: center
 }
+
 .circular {
 	width: 150;
 	height: 226;
@@ -29,5 +27,4 @@ html, body {
 	background: url(scott.jpg) no-repeat;
 	display: block;
 	margin: auto;
-	margin-top: 40px;
 }
